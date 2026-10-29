@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Poolify | Professional Pool Care &amp; Luxury Renovations</title>
+<!-- Google Fonts: Plus Jakarta Sans -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              navy: '#122452',
+              navyDark: '#0B1633',
+              navyLight: '#1E3A8A',
+              orange: '#FF7A30',
+              orangeHover: '#EA651B',
+              sky: '#38BDF8',
+              skyDark: '#0284C7',
+              bgLight: '#F8FAFC',
+              surface: '#FFFFFF',
+            }
+          },
+          boxShadow: {
+            'subtle': '0 4px 20px -2px rgba(18, 36, 82, 0.05)',
+            'card': '0 10px 30px -4px rgba(18, 36, 82, 0.07)',
+            'lift': '0 20px 35px -5px rgba(18, 36, 82, 0.12)',
+          }
+        }
+      }
+    }
+  </script>
+<!-- Custom Core Styles -->
+<style data-purpose="base-styling">
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #F8FAFC;
+      color: #334155;
+      overflow-x: hidden;
+    }
+    .text-gradient {
+      background: linear-gradient(135deg, #122452 0%, #0284C7 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .watermark-text {
+      font-size: clamp(5rem, 16vw, 18rem);
+      line-height: 0.8;
+      letter-spacing: -0.05em;
+      user-select: none;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body class="antialiased selection:bg-brand-orange selection:text-white">
+<!-- BEGIN: Sticky Navigation -->
+<header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200/80 transition-all duration-300">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+<!-- Brand Logo -->
+<a aria-label="Poolify Home" class="flex items-center gap-2 group" href="#">
+<span class="w-9 h-9 rounded-xl bg-brand-navy flex items-center justify-center text-white shadow-sm group-hover:scale-105 transition-transform duration-200">
+<!-- Pool Drop Wave Icon -->
+<svg class="w-5 h-5 text-brand-sky" fill="currentColor" viewbox="0 0 24 24">
+<path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+</svg>
+</span>
+<span class="text-2xl font-bold tracking-tight text-brand-navy">
+          Pool<span class="text-brand-orange">ify</span>
+</span>
+</a>
+<!-- Desktop Navigation Menu -->
+<nav class="hidden md:flex items-center gap-8 text-[15px] font-medium text-slate-600">
+<a class="hover:text-brand-navyLight transition-colors" href="#services">Services</a>
+<a class="hover:text-brand-navyLight transition-colors" href="#about">About</a>
+<a class="hover:text-brand-navyLight transition-colors" href="#work">Work</a>
+<a class="hover:text-brand-navyLight transition-colors" href="#process">How It Works</a>
+<a class="hover:text-brand-navyLight transition-colors" href="#tips">Tips &amp; Guides</a>
+</nav>
+<!-- Action Button -->
+<div class="flex items-center gap-4">
+<a class="inline-flex items-center justify-center px-5 py-2.5 rounded-full bg-brand-orange hover:bg-brand-orangeHover text-white font-semibold text-sm tracking-wide shadow-sm hover:shadow-md transition-all duration-200" href="#contact">
+          Get a Quote
+        </a>
+</div>
+</div>
+</header>
+<!-- END: Sticky Navigation -->
+<!-- BEGIN: Hero Section -->
+<section class="relative pt-8 pb-16 lg:pt-14 lg:pb-24 overflow-hidden">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Immersive Image Backdrop Card -->
+<div class="relative w-full rounded-3xl overflow-hidden shadow-2xl min-h-[580px] lg:min-h-[640px] flex items-center justify-center border border-slate-100">
+<!-- Pool Image with Soft Lighting Overlay -->
+<img alt="Luxury turquoise swimming pool with poolside loungers and sunny estate patio" class="absolute inset-0 w-full h-full object-cover object-center filter brightness-95" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBb-tA2CTm6mg3Wj3TjlMptTTqA8dfrVYGPZ9nDJosQIxnBe_91auoPr64OJHMZDA-UmonC3jxUb0JKVzzH-wdzTblUG2If9phEcZRccdtkxCcwRCkY8QoKEbtPnoWYV7MlpsE3CysDloOapPAGS_0J7OBtiguYepwklRxuscWBvQlF8tRlYrCLRtM8ooRxXZkm5sDGM9BMB_qeRi-c_G_UNnrS5SUXKdDQpTEz7UjAe57mu3DcKLWhxQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-brand-navy/50 via-slate-900/20 to-transparent"></div>
+<!-- Floating Central Frosted Content Card -->
+<div class="relative z-10 max-w-2xl mx-4 my-8 p-8 sm:p-12 bg-white/90 backdrop-blur-xl rounded-2xl shadow-lift border border-white/60 text-center animate-fade-in">
+<!-- Trust Badge / Eyebrow -->
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-50 border border-sky-100 text-brand-skyDark text-xs font-semibold tracking-wide uppercase mb-5">
+<span class="w-2 h-2 rounded-full bg-brand-skyDark animate-pulse"></span>
+            Trusted by 2,000+ Luxury Homeowners
+          </div>
+<!-- Headline -->
+<h1 class="text-3xl sm:text-5xl font-extrabold text-brand-navy tracking-tight leading-[1.15] mb-5">
+            Professional <span class="text-brand-skyDark">Pool Care</span><br/>For Every Season
+          </h1>
+<!-- Subtitle -->
+<p class="text-base sm:text-lg text-slate-600 max-w-lg mx-auto leading-relaxed mb-8">
+            From weekly maintenance to complete custom renovations, we keep your pool crystal clean, balanced, and swim-ready year-round.
+          </p>
+<!-- Dual CTAs -->
+<div class="flex flex-col sm:flex-row items-center justify-center gap-3.5">
+<a class="w-full sm:w-auto px-7 py-3 rounded-full bg-brand-orange hover:bg-brand-orangeHover text-white font-semibold text-sm tracking-wide transition-all shadow-md hover:shadow-lg" href="#contact">
+              Get a Quote
+            </a>
+<a class="w-full sm:w-auto px-7 py-3 rounded-full bg-white hover:bg-slate-50 text-brand-navy font-semibold text-sm tracking-wide border border-slate-200 transition-all shadow-sm" href="#services">
+              View Services
+            </a>
+</div>
+<!-- Mini Client Avatars Proof -->
+<div class="mt-8 pt-6 border-t border-slate-200/60 flex items-center justify-center gap-3">
+<div class="flex -space-x-2">
+<img alt="Customer review avatar" class="inline-block h-7 w-7 rounded-full ring-2 ring-white object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAtAtaRPosrxuTjN9pfGXlV3wBeKxjISWy-pLil92kqR8oGHry-hAW6L_6TbgJ7ZdfCYGDoBYzcQy6Lmq3GaiMWny9mWnnQGP60Z8ByqNYMieo0vGqfaFSvnyUw1tFk5sl5t_0LJFTitWWEMwohlSkIYQOlOZo7og5g2UJvZ953jqAiE2P18yJ1koPgN71Z6Qo5q66pmeA4x73htc9P8s-GmycoiG_kdSDwFP23aKB8Y7tRL1eecZnc1A"/>
+<img alt="Customer review avatar" class="inline-block h-7 w-7 rounded-full ring-2 ring-white object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQL6IvxZkqYpg0KxqaDCyW5laAeA_8Mwlsh20YiiUSod1g26f7Wg26lrKC8ie-NRBfRSMQfzBD_U9oSCOu8VP9pzdi9XxhLI71x8BR7uVK2vzsVFz5HM4HGKTY6Ld2Uw8w5hMShbPbz8JtjeDkohq3neHAs2GLV_nmDLtZYnat-ognGP0VCbIAR1ELplyfKaYbfG70wJ-nIKt1nEw3L2_GItFnwI5sLxBSFfLTtxwrg0Vd7Uv-3bKIxA"/>
+<img alt="Customer review avatar" class="inline-block h-7 w-7 rounded-full ring-2 ring-white object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDMTm2HUFT_84B9sySqD5ScwDQW7G-MAE09fA1C8h47ED0J3ddkNTIl3leTl020f1eXg2exGQ_dh60q1yFuh0jZ0s1UfSnn9x6znT1gMcKMnzRW6sf59e8iSm0tRDEFFO8OrQFbWVdbEhyqJsHkTQ4ubVqW6sngA5Rru5NnYRB4L36zCqCM-4P2qtLIIdsOekLmrf4e5erDyP5BqzY_CGbK4giWu_49ih0lS0CG9nLeqTI-TotVvsZ1Bw"/>
+</div>
+<p class="text-xs font-medium text-slate-500">
+<span class="font-bold text-brand-navy">4.9/5 Rating</span> from verified clients
+            </p>
+</div>
+</div>
+</div>
+<!-- Partner / Trust Badges Row -->
+<div class="mt-12 pt-8 border-b border-slate-200/80 flex flex-wrap items-center justify-center gap-8 sm:gap-14 opacity-65 grayscale hover:grayscale-0 transition-all">
+<span class="text-xs font-bold uppercase tracking-wider text-slate-400">Featured In &amp; Partnered With</span>
+<div class="flex items-center gap-2 font-bold text-slate-700 tracking-wider text-sm"><span class="text-lg">❖</span> AQUA LIVING</div>
+<div class="flex items-center gap-2 font-bold text-slate-700 tracking-wider text-sm"><span class="text-lg">✦</span> LUXE POOLS</div>
+<div class="flex items-center gap-2 font-bold text-slate-700 tracking-wider text-sm"><span class="text-lg">◉</span> COASTAL BUILD</div>
+<div class="flex items-center gap-2 font-bold text-slate-700 tracking-wider text-sm"><span class="text-lg">◈</span> ARCHITECTURAL POOL</div>
+</div>
+</div>
+</section>
+<!-- END: Hero Section -->
+<!-- BEGIN: Services Section (Asymmetric Reference Structure) -->
+<section class="py-16 lg:py-24 bg-brand-bgLight" id="services">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
+<!-- Left Column: Sticky Summary & Header -->
+<div class="lg:col-span-4 lg:sticky lg:top-28 space-y-5">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-slate-200 text-brand-orange text-xs font-bold uppercase tracking-wider">
+<span>⚡</span> SERVICES
+          </div>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-brand-navy leading-tight tracking-tight">
+            Everything Your Pool <span class="text-brand-skyDark">Needs</span>
+</h2>
+<p class="text-slate-600 text-base leading-relaxed">
+            Choose from recurring service plans, one-time deep cleanings, urgent repairs, luxury renovations, and modern automated builds.
+          </p>
+<div class="pt-2">
+<a class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-brand-orange hover:bg-brand-orangeHover text-white font-semibold text-sm transition-all shadow-sm hover:shadow-md" href="#contact">
+              View All Services
+            </a>
+</div>
+<!-- Micro Highlight Box -->
+<div class="mt-8 p-5 bg-white rounded-2xl border border-slate-200/80 shadow-subtle">
+<div class="flex items-center gap-3 mb-2">
+<span class="w-8 h-8 rounded-full bg-emerald-50 text-emerald-600 flex items-center justify-center text-sm font-bold">✓</span>
+<span class="text-sm font-bold text-brand-navy">Chemicals Included</span>
+</div>
+<p class="text-xs text-slate-500 leading-normal">
+              Every maintenance package covers high-grade chlorine, stabilizer, balance adjustments, and water clarity testing.
+            </p>
+</div>
+</div>
+<!-- Right Column: Vertical Stacked Detailed Service Cards -->
+<div class="lg:col-span-8 space-y-6">
+<!-- Service Card 1 -->
+<div class="group bg-white rounded-2xl p-6 sm:p-7 border border-slate-200/80 shadow-subtle hover:shadow-card transition-all duration-300 grid grid-cols-1 sm:grid-cols-12 gap-6 items-center">
+<div class="sm:col-span-5 h-48 rounded-xl overflow-hidden bg-slate-100">
+<img alt="Pool technician checking water chemical balance" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLeHPr-3dlLquWxbOlNUHK3OqgOkDfnKR5PwxJ0HhdzaW_FXj5jeOf5TxCsiR_Bm8bl0U6hmSNwtQ_U91KgrRNkRt5EmF72wnPkgw5AylY4eQlj-t-6Yz6q_vYHX8WiQgGm8Xddks8tFI8aYN482nUwB84H7g9ctfB0jIEABe_B3u4E45NY4up3ifgpsHPuAbX6wcJJa2cQBRI2At_eKl1NU3tSBSFfEluq4FXnQdVQIkLCP3XdmGOug"/>
+</div>
+<div class="sm:col-span-7 space-y-2">
+<div class="w-8 h-8 rounded-lg bg-orange-50 text-brand-orange flex items-center justify-center text-sm font-semibold mb-1">
+                📅
+              </div>
+<h3 class="text-xl font-bold text-brand-navy group-hover:text-brand-skyDark transition-colors">
+                Weekly Maintenance
+              </h3>
+<p class="text-slate-600 text-sm leading-relaxed">
+                Keep your pool balanced, sparkling clean, skimmed, vacuumed, and swim-ready every week without lifting a finger.
+              </p>
+<div class="pt-2">
+<span class="text-xs font-semibold text-slate-400 uppercase tracking-wide">Starting from $149/mo</span>
+</div>
+</div>
+</div>
+<!-- Service Card 2 -->
+<div class="group bg-white rounded-2xl p-6 sm:p-7 border border-slate-200/80 shadow-subtle hover:shadow-card transition-all duration-300 grid grid-cols-1 sm:grid-cols-12 gap-6 items-center">
+<div class="sm:col-span-5 h-48 rounded-xl overflow-hidden bg-slate-100">
+<img alt="Deep clean robot and technician working on residential pool" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4EnUJmNv70B9KkEFu9TyDYWmSc50wgnDnwzxmr1qnowuJ8Ohswej57xoW_ShbtFFhrU7eJBqXEFmUvWaliqyIOm4fQchajYmsiuzoJOWI9QAFrtZ6p8q2tHQ4ZTKXPNAHZr1PusjO30KWjl7M5A6LWPE5ZuAuNbyxM8fTf9yZgcJfjK9rHVX4PJoDWO8IsPxBZZa2T867U0qhdwC7SmGsLIFGRpuQ35Ch4KKm8k3oRqT8sGzp9TyU8g"/>
+</div>
+<div class="sm:col-span-7 space-y-2">
+<div class="w-8 h-8 rounded-lg bg-sky-50 text-brand-skyDark flex items-center justify-center text-sm font-semibold mb-1">
+                💧
+              </div>
+<h3 class="text-xl font-bold text-brand-navy group-hover:text-brand-skyDark transition-colors">
+                Pool Cleaning &amp; Algae Recovery
+              </h3>
+<p class="text-slate-600 text-sm leading-relaxed">
+                One-time deep cleans, green-to-clean chemical treatments, tile descaling, and filter cartridge purges that restore pristine clarity.
+              </p>
+<div class="pt-2">
+<span class="text-xs font-semibold text-slate-400 uppercase tracking-wide">Same-day inspection available</span>
+</div>
+</div>
+</div>
+<!-- Service Card 3 -->
+<div class="group bg-white rounded-2xl p-6 sm:p-7 border border-slate-200/80 shadow-subtle hover:shadow-card transition-all duration-300 grid grid-cols-1 sm:grid-cols-12 gap-6 items-center">
+<div class="sm:col-span-5 h-48 rounded-xl overflow-hidden bg-slate-100">
+<img alt="Pool filter equipment and motor maintenance" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3lsEFyFko4Uol_vMz0rVy3xtE6ncpqa-Iu0WiVI6G8IpOgTTKVgi0zhsYPIGTkfEW_10_MvNThKvOn4kG-ZN7ASwAwcof8CgxX6Ew_HcI4FuBT5dEkLyuccU4CZTd6GpKbZaRVd2PSwEhDetj_lA_pigwsE8seRWadEQObj-fILOb3aZi3iOs3a6ML6z6tEEXa5kLHtf0ghYyF1cT-kxNmE6f6dRNpcbHeb7TBMDM5mDh24T9rApEAA"/>
+</div>
+<div class="sm:col-span-7 space-y-2">
+<div class="w-8 h-8 rounded-lg bg-amber-50 text-amber-600 flex items-center justify-center text-sm font-semibold mb-1">
+                ⚙️
+              </div>
+<h3 class="text-xl font-bold text-brand-navy group-hover:text-brand-skyDark transition-colors">
+                Repairs &amp; Equipment Automation
+              </h3>
+<p class="text-slate-600 text-sm leading-relaxed">
+                Fast, dependable fixes for variable-speed pumps, smart heaters, salt cells, valves, and smartphone-controlled automation systems.
+              </p>
+<div class="pt-2">
+<span class="text-xs font-semibold text-slate-400 uppercase tracking-wide">Licensed &amp; Insured Technicians</span>
+</div>
+</div>
+</div>
+<!-- Service Card 4 -->
+<div class="group bg-white rounded-2xl p-6 sm:p-7 border border-slate-200/80 shadow-subtle hover:shadow-card transition-all duration-300 grid grid-cols-1 sm:grid-cols-12 gap-6 items-center">
+<div class="sm:col-span-5 h-48 rounded-xl overflow-hidden bg-slate-100">
+<img alt="Resurfaced modern pool tile and water features" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJT_Qw_melayp-Tc9N22P3iIb89DA9harVic2Gz8jNR7VOMnomAE-9qBiVKIoS35NgU_vlKowlDKBYWPbh2ZTHsyIFJLvWO73T6WHbjCKfvF1f9NMPuNv6MdjUhdF84xS6DBg4mkxmvG8kurrgRAN1EFY63oxrucUO6hgIrUfpdjqxcy7wclYml3Tm0f04G6j-WSQ2siywU6woNnu15wDu8b4GG45raPYXb9wl0akhgCrtXMiaH9kA-w"/>
+</div>
+<div class="sm:col-span-7 space-y-2">
+<div class="w-8 h-8 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center text-sm font-semibold mb-1">
+                🛠️
+              </div>
+<h3 class="text-xl font-bold text-brand-navy group-hover:text-brand-skyDark transition-colors">
+                Renovation &amp; Remodeling
+              </h3>
+<p class="text-slate-600 text-sm leading-relaxed">
+                Refresh the look with custom pebble resurfacing, porcelain water-line tile, travertine coping, tanning ledges, and LED lighting upgrades.
+              </p>
+<div class="pt-2">
+<span class="text-xs font-semibold text-slate-400 uppercase tracking-wide">Full 3D Design Consultations</span>
+</div>
+</div>
+</div>
+<!-- Service Card 5 -->
+<div class="group bg-white rounded-2xl p-6 sm:p-7 border border-slate-200/80 shadow-subtle hover:shadow-card transition-all duration-300 grid grid-cols-1 sm:grid-cols-12 gap-6 items-center">
+<div class="sm:col-span-5 h-48 rounded-xl overflow-hidden bg-slate-100">
+<img alt="Pool cover closing and preparation" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXw6oXg5sXAG519iupZ8vEFVr8mF1PXWweoFsFW7lnNskkLQ_BTJgEasoVGeoEI2lTsN73t-C19myy9PvY6lLMB_M5YbKEiUrrTO3ZGB8eL4g1NudUWdGfEWM5E1lX_aVRYPVfp2wCAyW974u5UjcmF7amwkH7VMBbJaekrsaHh3bvBVFGUzsT8VPIg8W5mR0YUT3sMJwOSnjwLUWVxsOZrDjQBnalJMxQfiHYHBNMhUsoPeAhPS2gmQ"/>
+</div>
+<div class="sm:col-span-7 space-y-2">
+<div class="w-8 h-8 rounded-lg bg-cyan-50 text-brand-skyDark flex items-center justify-center text-sm font-semibold mb-1">
+                ❄️
+              </div>
+<h3 class="text-xl font-bold text-brand-navy group-hover:text-brand-skyDark transition-colors">
+                Opening &amp; Closing
+              </h3>
+<p class="text-slate-600 text-sm leading-relaxed">
+                Seasonal opening and winterization handled start to finish. We winterize plumbing lines, cover safety pools, and prep for the next season.
+              </p>
+<div class="pt-2">
+<span class="text-xs font-semibold text-slate-400 uppercase tracking-wide">Seasonal package discounts</span>
+</div>
+</div>
+</div>
+<!-- Service Card 6 -->
+<div class="group bg-white rounded-2xl p-6 sm:p-7 border border-slate-200/80 shadow-subtle hover:shadow-card transition-all duration-300 grid grid-cols-1 sm:grid-cols-12 gap-6 items-center">
+<div class="sm:col-span-5 h-48 rounded-xl overflow-hidden bg-slate-100">
+<img alt="Salt water chlorine generator system installation" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1UbXjyPEbo9Xzq6oiLmf0xNUxKd5cDg_RHxN5oT1gn585SoWofYofp4-tkcvMpnRVnVoo89Dib3Yk4bC1KnazFTDKC4ihA5Emx0yfiXd77vR_ifBSMO412H-eLYFeJJ9nmsY0JNWEAaNoup3MUTxQ518pIkTXEWe9Wq51bvLvBx3YfzUSSzpWOhj6xRZrFNl41WSjikrJM6FTCfqhIg3qrXByf_htqMg1GRmPpb_D_lu3pNFFhqMQxQ"/>
+</div>
+<div class="sm:col-span-7 space-y-2">
+<div class="w-8 h-8 rounded-lg bg-emerald-50 text-emerald-600 flex items-center justify-center text-sm font-semibold mb-1">
+                🧂
+              </div>
+<h3 class="text-xl font-bold text-brand-navy group-hover:text-brand-skyDark transition-colors">
+                Saltwater Conversion
+              </h3>
+<p class="text-slate-600 text-sm leading-relaxed">
+                Switch to softer, gentler, low-maintenance saltwater swimming that reduces eye irritation, eliminates harsh chemical odors, and preserves pool liners.
+              </p>
+<div class="pt-2">
+<span class="text-xs font-semibold text-slate-400 uppercase tracking-wide">Eco-friendly technology</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: Services Section -->
+<!-- BEGIN: The Poolify Standard Section -->
+<section class="py-16 bg-white border-y border-slate-200/70">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Section Header -->
+<div class="text-center max-w-2xl mx-auto mb-14">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100 text-slate-700 text-xs font-bold uppercase tracking-wider mb-3">
+          ✦ WHY POOLIFY
+        </div>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-brand-navy tracking-tight">
+          The Poolify <span class="text-brand-skyDark">Standard</span>
+</h2>
+<p class="text-slate-500 mt-3 text-base">
+          Clear communication, dependable arrival windows, and craftsmanship built to withstand every season.
+        </p>
+</div>
+<!-- 4 Horizontal Pillars -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="p-6 rounded-2xl bg-brand-bgLight border border-slate-200/80 hover:border-slate-300 transition-all">
+<div class="w-10 h-10 rounded-xl bg-orange-100 text-brand-orange flex items-center justify-center text-xl font-bold mb-4">
+            🏆
+          </div>
+<h4 class="text-lg font-bold text-brand-navy mb-2">Years of Experience</h4>
+<p class="text-sm text-slate-600 leading-relaxed">
+            Proven master technician expertise across maintenance, hydraulic plumbing, and structural engineering.
+          </p>
+</div>
+<div class="p-6 rounded-2xl bg-brand-bgLight border border-slate-200/80 hover:border-slate-300 transition-all">
+<div class="w-10 h-10 rounded-xl bg-sky-100 text-brand-skyDark flex items-center justify-center text-xl font-bold mb-4">
+            ⏱️
+          </div>
+<h4 class="text-lg font-bold text-brand-navy mb-2">On-Time Service</h4>
+<p class="text-sm text-slate-600 leading-relaxed">
+            Clear arrival notifications, punctual scheduled visits, and no surprise cancellations or missed appointments.
+          </p>
+</div>
+<div class="p-6 rounded-2xl bg-brand-bgLight border border-slate-200/80 hover:border-slate-300 transition-all">
+<div class="w-10 h-10 rounded-xl bg-indigo-100 text-indigo-600 flex items-center justify-center text-xl font-bold mb-4">
+            🛡️
+          </div>
+<h4 class="text-lg font-bold text-brand-navy mb-2">Quality Workmanship</h4>
+<p class="text-sm text-slate-600 leading-relaxed">
+            Commercial-grade filtration equipment, premium testing re-agents, and meticulous finish detailing.
+          </p>
+</div>
+<div class="p-6 rounded-2xl bg-brand-bgLight border border-slate-200/80 hover:border-slate-300 transition-all">
+<div class="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center text-xl font-bold mb-4">
+            🏷️
+          </div>
+<h4 class="text-lg font-bold text-brand-navy mb-2">Transparent Pricing</h4>
+<p class="text-sm text-slate-600 leading-relaxed">
+            Flat, honest monthly rate sheets and pre-approved invoices with photographic logs after every job.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- END: The Poolify Standard Section -->
+<!-- BEGIN: About Us Section -->
+<section class="py-16 lg:py-24 bg-brand-bgLight" id="about">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Left: Copy & Bulletpoints -->
+<div class="lg:col-span-6 space-y-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-slate-200 text-brand-skyDark text-xs font-bold uppercase tracking-wider">
+            🤝 BUILT ON TRUST
+          </div>
+<h2 class="text-3xl sm:text-5xl font-extrabold text-brand-navy leading-tight tracking-tight">
+            Pool Care With A <span class="text-brand-skyDark">Higher Standard</span>
+</h2>
+<p class="text-slate-600 text-base sm:text-lg leading-relaxed">
+            Poolify was built around reliable service, clear communication, and pool care that homeowners and luxury estates can count on every single season. We eliminate the frustration of absentee cleaners and opaque pricing.
+          </p>
+<!-- Checked List -->
+<ul class="space-y-3 pt-2">
+<li class="flex items-center gap-3 text-slate-700 font-medium">
+<span class="w-5 h-5 rounded-full bg-brand-skyDark/10 text-brand-skyDark flex items-center justify-center text-xs font-bold">✓</span>
+              Reliable, consistent pool care schedule
+            </li>
+<li class="flex items-center gap-3 text-slate-700 font-medium">
+<span class="w-5 h-5 rounded-full bg-brand-skyDark/10 text-brand-skyDark flex items-center justify-center text-xs font-bold">✓</span>
+              Clear service photo updates &amp; chemical reports sent to your phone
+            </li>
+<li class="flex items-center gap-3 text-slate-700 font-medium">
+<span class="w-5 h-5 rounded-full bg-brand-skyDark/10 text-brand-skyDark flex items-center justify-center text-xs font-bold">✓</span>
+              Long-term results that safeguard equipment warranties
+            </li>
+</ul>
+<div class="pt-4">
+<a class="inline-flex items-center justify-center px-7 py-3 rounded-full bg-brand-orange hover:bg-brand-orangeHover text-white font-semibold text-sm transition-all shadow-sm" href="#contact">
+              About Us
+            </a>
+</div>
+</div>
+<!-- Right: Team & Technician Photography -->
+<div class="lg:col-span-6">
+<div class="relative rounded-3xl overflow-hidden shadow-2xl border border-slate-200/80">
+<img alt="Pool maintenance crew and estate patio" class="w-full h-[440px] sm:h-[480px] object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCN8wZDh0wZhNemVr_dJ32G06u-45djq4wGI2LGtbphytAwWHnSEZYw7D6jGTD8SnujmoUKKUzPK-iahz9EYwVQGURSbAy9IbC6uDIOpNG53B76ON-qF1iexRoOpcFLZvnCv7K0zXu6q7_ICWwWdyqMeMRhOrr5do0CQ6YQWsSUsXJzZrsgCTkOKlnDLj59HsrrInl6loLRL6p44HT_n_JVvnItqdjqcRrUBLYZrG5lNi5qjoNfF3qAgA"/>
+<div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-brand-navy/90 via-brand-navy/40 to-transparent p-6 sm:p-8 text-white">
+<p class="text-xs uppercase tracking-widest text-brand-sky font-semibold mb-1">Our Dedicated Crew</p>
+<h4 class="text-xl font-bold">Certified Pool Operators (CPO) on Every Route</h4>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: About Us Section -->
+<!-- BEGIN: Work We're Proud Of (Portfolio) -->
+<section class="py-16 lg:py-24 bg-white" id="work">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Section Header -->
+<div class="text-center max-w-2xl mx-auto mb-16">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-bgLight border border-slate-200 text-brand-orange text-xs font-bold uppercase tracking-wider mb-3">
+          ⭐ RESULTS
+        </div>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-brand-navy tracking-tight">
+          Work We're <span class="text-brand-skyDark">Proud Of</span>
+</h2>
+<p class="text-slate-500 mt-3 text-base">
+          A quick look at recent builds, crystal clear refreshes, and precision restorations.
+        </p>
+</div>
+<!-- Project Cards Stack -->
+<div class="space-y-12">
+<!-- Project 1 -->
+<div class="bg-brand-bgLight rounded-3xl p-6 sm:p-8 border border-slate-200/80 shadow-subtle grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<div class="lg:col-span-7 h-72 sm:h-96 rounded-2xl overflow-hidden relative group">
+<span class="absolute top-4 left-4 z-10 px-3 py-1 rounded-lg bg-white/90 backdrop-blur-sm text-brand-navy font-extrabold text-xs">
+              2024 Project
+            </span>
+<img alt="Modern infinity pool with luxury stone finish in Miami" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAJvo8A_wbd8hEXl_7dtEMrXi_09YQQxtg5cPF9syj1YJ6K0yiaufCGDdvcheg6YmZMTra0fiy1GBn9ewXe3gUMFrgi_rgkEvLvYPqXJQ2lcSeBfPtqvJReqNoHEWYlV1disJorHB81Kr31-9mDIZAWemj0ZMafXRt0L9lizykhwehiRuzVLS6cBj4w-17CM-NKVMiJWqO4Zsky2sIxI4KbvKxCYW2psZtR0r99EZpwtPaWCV8Intsj2w"/>
+</div>
+<div class="lg:col-span-5 space-y-4">
+<div class="flex items-center gap-2 text-xs font-semibold text-slate-500">
+<span>📍</span> Miami, FL
+            </div>
+<h3 class="text-2xl font-bold text-brand-navy">
+              Modern Infinity Pool Build
+            </h3>
+<p class="text-slate-600 text-sm leading-relaxed">
+              Designed and built a clean, modern infinity-style pool with a bright stone deck and a premium pebble finish, planned for effortless maintenance and longevity.
+            </p>
+<div class="pt-2">
+<a class="inline-flex items-center justify-center px-6 py-2.5 rounded-full bg-brand-orange hover:bg-brand-orangeHover text-white font-semibold text-xs tracking-wide transition-all shadow-sm" href="#contact">
+                Contact For Similar Build
+              </a>
+</div>
+</div>
+</div>
+<!-- Project 2 -->
+<div class="bg-brand-bgLight rounded-3xl p-6 sm:p-8 border border-slate-200/80 shadow-subtle grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<div class="lg:col-span-7 h-72 sm:h-96 rounded-2xl overflow-hidden relative group">
+<span class="absolute top-4 left-4 z-10 px-3 py-1 rounded-lg bg-white/90 backdrop-blur-sm text-brand-navy font-extrabold text-xs">
+              Deep Clean Case
+            </span>
+<img alt="Sparkling swimming pool after deep clean chemical balance" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYtvn5vwIsv090ym8oYbiEFLZ1FR3tUMShGF-kjaHRcTL13_RP5oAR54-BMVmMw9dpzcQFGoFOtupiRTW4FgIr1eWUVM0osoHx9TB16xKu9IUN1pXWvp1PbMaI6W7LLeOCDhI2Z-Qj_syLhUzOAdJwKJwF3ci2WZd6sOMza9975FlVu61U156nCsLPpTH_tQOWPht_2sUrdbGV1OZnPl3UMozgJCiHj2-GPjhURRz7je9N5sf8mZf7Fg"/>
+</div>
+<div class="lg:col-span-5 space-y-4">
+<div class="flex items-center gap-2 text-xs font-semibold text-slate-500">
+<span>📍</span> Miami Beach, FL
+            </div>
+<h3 class="text-2xl font-bold text-brand-navy">
+              Completed Deep Clean &amp; Chemical Balance
+            </h3>
+<p class="text-slate-600 text-sm leading-relaxed">
+              Completed a one-time deep clean to remove algae buildup, restore water clarity, and rebalance chemistry, including skimming, vacuuming, brushing, and a full filter check.
+            </p>
+<div class="pt-2">
+<a class="inline-flex items-center justify-center px-6 py-2.5 rounded-full bg-brand-orange hover:bg-brand-orangeHover text-white font-semibold text-xs tracking-wide transition-all shadow-sm" href="#contact">
+                Book A Deep Clean
+              </a>
+</div>
+</div>
+</div>
+<!-- Project 3 -->
+<div class="bg-brand-bgLight rounded-3xl p-6 sm:p-8 border border-slate-200/80 shadow-subtle grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<div class="lg:col-span-7 h-72 sm:h-96 rounded-2xl overflow-hidden relative group">
+<span class="absolute top-4 left-4 z-10 px-3 py-1 rounded-lg bg-white/90 backdrop-blur-sm text-brand-navy font-extrabold text-xs">
+              Remodel 2024
+            </span>
+<img alt="Pool renovation with new coping and sparkling water" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBTPg7lD5FAuEYvvTqh6U6oMYY8A49evsmQve346P5Z7hJN3mLzth6FcFEtVu1RcG9YoUsGy1V3DHZgLf8udC1oHD1LrvKgr60IkVBu4cM-c-tmQWPp0sHFtsNAAEzZK_fmOsY9c2LHXBaRrRNSx_riUihqjsF24m9dvyBzZnDbMcuEZohcmXqCR4bCRHxJrSjVxcTlJ9lOoqxOFxA2MGZpaVaKnG8E1M3JPTo8TaPFcWSX08VT6jLgeQ"/>
+</div>
+<div class="lg:col-span-5 space-y-4">
+<div class="flex items-center gap-2 text-xs font-semibold text-slate-500">
+<span>📍</span> Hollywood, FL
+            </div>
+<h3 class="text-2xl font-bold text-brand-navy">
+              Pool Renovation &amp; Deck Refresh
+            </h3>
+<p class="text-slate-600 text-sm leading-relaxed">
+              Refreshed the pool with a clean, modern update, resurfacing touch-ups, Mediterranean blue tile, and a full equipment tune-up to improve performance and comfort.
+            </p>
+<div class="pt-2">
+<a class="inline-flex items-center justify-center px-6 py-2.5 rounded-full bg-brand-orange hover:bg-brand-orangeHover text-white font-semibold text-xs tracking-wide transition-all shadow-sm" href="#contact">
+                Get Renovation Quote
+              </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: Work We're Proud Of -->
+<!-- BEGIN: How It Works (Process) -->
+<section class="py-16 lg:py-24 bg-brand-bgLight border-t border-slate-200/80" id="process">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-slate-200 text-brand-skyDark text-xs font-bold uppercase tracking-wider mb-3">
+          🔍 PROCESS
+        </div>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-brand-navy tracking-tight">
+          How <span class="text-brand-skyDark">It Works</span>
+</h2>
+<p class="text-slate-500 mt-3 text-base">
+          Clear planning, clean execution, and a final setup you can rely on.
+        </p>
+</div>
+<!-- 4 Stepped Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="bg-white p-7 rounded-2xl border border-slate-200/80 shadow-subtle relative">
+<span class="text-5xl font-extrabold text-brand-skyDark/30 block mb-3 font-sans">01</span>
+<h4 class="text-lg font-bold text-brand-navy mb-2">Site Check &amp; Plan</h4>
+<p class="text-sm text-slate-600 leading-relaxed">
+            We inspect your pool, test water chemistry, audit filters and motors, and map next steps.
+          </p>
+</div>
+<div class="bg-white p-7 rounded-2xl border border-slate-200/80 shadow-subtle relative">
+<span class="text-5xl font-extrabold text-brand-skyDark/30 block mb-3 font-sans">02</span>
+<h4 class="text-lg font-bold text-brand-navy mb-2">Transparent Quote</h4>
+<p class="text-sm text-slate-600 leading-relaxed">
+            We provide upfront quotes with zero surprises. You pick the cadence that fits your lifestyle.
+          </p>
+</div>
+<div class="bg-white p-7 rounded-2xl border border-slate-200/80 shadow-subtle relative">
+<span class="text-5xl font-extrabold text-brand-skyDark/30 block mb-3 font-sans">03</span>
+<h4 class="text-lg font-bold text-brand-navy mb-2">Build / Refresh</h4>
+<p class="text-sm text-slate-600 leading-relaxed">
+            We handle the work cleanly: chemical balancing, updates, installs, and deep cleaning passes.
+          </p>
+</div>
+<div class="bg-white p-7 rounded-2xl border border-slate-200/80 shadow-subtle relative">
+<span class="text-5xl font-extrabold text-brand-skyDark/30 block mb-3 font-sans">04</span>
+<h4 class="text-lg font-bold text-brand-navy mb-2">Swim &amp; Relax</h4>
+<p class="text-sm text-slate-600 leading-relaxed">
+            Enjoy crystal-clear, safe water with automatic weekly route logs delivered straight to your phone.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- END: How It Works -->
+<!-- BEGIN: Testimonials Section -->
+<section class="py-16 lg:py-24 bg-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100 text-brand-orange text-xs font-bold uppercase tracking-wider mb-3">
+          💬 TESTIMONIALS
+        </div>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-brand-navy tracking-tight">
+          What <span class="text-brand-skyDark">Pool Owners</span> Say
+        </h2>
+<p class="text-slate-500 mt-3 text-base">
+          Honest words from homeowners who rely on our team to keep their pool pristine.
+        </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+<!-- Left: Lifestyle Portrait Card with Embedded Testimonial Overlay -->
+<div class="lg:col-span-5 relative rounded-3xl overflow-hidden shadow-card min-h-[460px] flex items-end">
+<img alt="Customer enjoying clean pool patio water" class="absolute inset-0 w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZXffesqAfKdhvvppqwrQo8jsp4COh8SSBX4wlEwc3iL5xGcqAusqrbbk-0HnH6D0mcBzTcmzmE9bZcdQxW4Tk_3K2f86JAISVXmqMpzmQlI6tD7-AMl-4y1Lhk1e_bKGIaF5jr2YH993mIGkJwWZ9FTRQ_PHoYoBcS6Ve1wj9vWHUDrlKVVYzsoDn8iEvnS0QrYmv4LXXHj5_AiFUgrTxO7sVSYwLpF5thUoQIuPIQkBqTbrQtTUojQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-brand-navyDark/90 via-brand-navy/30 to-transparent"></div>
+<div class="relative z-10 p-6 sm:p-8 text-white">
+<div class="flex text-amber-400 text-sm mb-3">★★★★★</div>
+<p class="text-base sm:text-lg font-medium italic leading-snug mb-4">
+              "After one deep clean the water was crystal clear again, and weekly visits keep it that way consistently."
+            </p>
+<div class="text-xs uppercase tracking-wider text-slate-300 font-bold">
+              Olivia Hayes — <span class="text-brand-sky">Residential Estate</span>
+</div>
+</div>
+</div>
+<!-- Right: 3 Review Cards Stack -->
+<div class="lg:col-span-7 flex flex-col justify-between gap-4">
+<!-- Review 1 -->
+<div class="bg-brand-bgLight p-6 rounded-2xl border border-slate-200/80 shadow-subtle">
+<div class="flex items-center justify-between mb-3">
+<div class="flex text-amber-400 text-sm">★★★★★</div>
+<span class="text-xs text-slate-400">Weekly Route Customer</span>
+</div>
+<p class="text-slate-700 text-sm sm:text-base leading-relaxed mb-4">
+              "Everything feels more professional now: clear arrival updates, immaculate tile work, and results you can actually notice."
+            </p>
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-full bg-slate-200 overflow-hidden">
+<img alt="Sydney Collins avatar" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDdhoi4vF8bcfJQBv49sArz0KbunF3nw9FFP5XbfZDlug2NBfo8O1deElzxbw5Gg4p94ne-YQRoTCobM4HnwXgy6Z8Tg7BZuKq7t7CUBXGQir8jGioOw6l-f3gb-4IfJzZ4QZS4HS75uaoQRDHxOBx94TDIz2VlYxyWOk0x9a9ffmD_-Oq5H-mG4a3Px9TmrHggoIoOG90PJ9-fpBuvWy2_ccOR5s1ph-yHwiNTeWGk71VoVNc1i-LMGA"/>
+</div>
+<div>
+<h5 class="text-sm font-bold text-brand-navy">Sydney Collins</h5>
+<p class="text-xs text-slate-400">South Beach, Miami</p>
+</div>
+</div>
+</div>
+<!-- Review 2 -->
+<div class="bg-brand-bgLight p-6 rounded-2xl border border-slate-200/80 shadow-subtle">
+<div class="flex items-center justify-between mb-3">
+<div class="flex text-amber-400 text-sm">★★★★★</div>
+<span class="text-xs text-slate-400">Saltwater Conversion</span>
+</div>
+<p class="text-slate-700 text-sm sm:text-base leading-relaxed mb-4">
+              "Our community pool stays spotless, and residents noticed the difference within the first week of service."
+            </p>
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-full bg-slate-200 overflow-hidden">
+<img alt="Daniel Kim avatar" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAolwBCfGWom2x8eW9MYrT8gCXxZHsRisR7AVb5e_Hbot9BOeP3ACl-1VFLpgEVM10I7aLVzQ26Zmv57ZsruDx9I3wYYpn7Lv9sKnN757J06J_m49lX5-TTRVDKOqmxsaBzcGw-AggUfXll6cxc5zY7Q5YGQqYc4pr9Qrr7e5D9W86nDG5CsCJiy3Gg8PeVwgXsjQWSJebFSBCXEzWkxZQ616FYD1TA_7Aphynr1GCdIsbOty4STHGusg"/>
+</div>
+<div>
+<h5 class="text-sm font-bold text-brand-navy">Daniel Kim</h5>
+<p class="text-xs text-slate-400">Coconut Grove</p>
+</div>
+</div>
+</div>
+<!-- Review 3 -->
+<div class="bg-brand-bgLight p-6 rounded-2xl border border-slate-200/80 shadow-subtle">
+<div class="flex items-center justify-between mb-3">
+<div class="flex text-amber-400 text-sm">★★★★★</div>
+<span class="text-xs text-slate-400">Renovation Project</span>
+</div>
+<p class="text-slate-700 text-sm sm:text-base leading-relaxed mb-4">
+              "Great experience from start to finish, they planned it well, and the new pool fits our outdoor living space perfectly."
+            </p>
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-full bg-slate-200 overflow-hidden">
+<img alt="Madison Clarke avatar" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAHCabjF0ERdkoQPprFCk_RGCs4CmuUsetmtJqt-ZN1rJqejRxNbwzaCj6JF4ZGlhIBP2Q2zE8KlP74T7vOSgOK0tcdsqL2YvkYCzoVNPHg6U8lpmMA75JhTusn90afJn4toc4tEaRTr_P6Aii8ZfSVVrM-CTu-HccDhtP5mU3U7-Dt-dJ04OM2pU8RaV69psFQvFqFNADK94OlkGD8DeDHIYijNWJRNkO8CGDzAuRXB3JEAXBvHRbKQw"/>
+</div>
+<div>
+<h5 class="text-sm font-bold text-brand-navy">Madison Clarke</h5>
+<p class="text-xs text-slate-400">Downtown Miami</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: Testimonials Section -->
+<!-- BEGIN: Tips & Guides Section (Blog) -->
+<section class="py-16 lg:py-24 bg-brand-bgLight border-t border-slate-200/80" id="tips">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-2xl mx-auto mb-14">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-slate-200 text-brand-skyDark text-xs font-bold uppercase tracking-wider mb-3">
+          📰 BLOG
+        </div>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-brand-navy tracking-tight">
+          Tips &amp; <span class="text-brand-skyDark">Guides</span>
+</h2>
+<p class="text-slate-500 mt-3 text-base">
+          Simple guides for cleaner water and smoother equipment maintenance.
+        </p>
+</div>
+<!-- 3 Editorial Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Article 1 -->
+<article class="bg-white rounded-2xl overflow-hidden border border-slate-200/80 shadow-subtle hover:shadow-card transition-all duration-300 group flex flex-col">
+<div class="h-48 overflow-hidden bg-slate-100">
+<img alt="Pool maintenance checklist" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRREQhG1Dmj57HqbsPFNvrSi6HdUV2JlM0tzOPYqZdgqcQZezhUezdWqdlvlbwkaKpArlrt5ffuvWk2yqGOpy-vnEpab-9f9YIIaeahjdkPKbvZHg1rDzl49-rX-tqyPC1TMSeeEElnN5IlLa25Qp7wKOQWhgjYlfJHvdJvzgWtFh84POmBYB02ixuLabOylzcPADDQiCkYSqjshrkNPaUrCYUJDUWmhx1zjH0uD9RsofxLpo3Anr_ug"/>
+</div>
+<div class="p-6 flex-1 flex flex-col justify-between">
+<div>
+<span class="text-[11px] font-semibold uppercase tracking-wider text-slate-400">Jun 27, 2024</span>
+<h3 class="text-lg font-bold text-brand-navy mt-1 group-hover:text-brand-skyDark transition-colors">
+                Weekly Pool Maintenance Checklist
+              </h3>
+</div>
+<a class="mt-4 text-xs font-bold text-brand-orange hover:text-brand-orangeHover inline-flex items-center gap-1" href="#contact">
+              Read Guide →
+            </a>
+</div>
+</article>
+<!-- Article 2 -->
+<article class="bg-white rounded-2xl overflow-hidden border border-slate-200/80 shadow-subtle hover:shadow-card transition-all duration-300 group flex flex-col">
+<div class="h-48 overflow-hidden bg-slate-100">
+<img alt="Pool pump inspection" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAKc7LdEvvOCglmsK4oMYDZjADARvewsA4TTu8EfUB858lZUb5xjFMWYa7MYvVlf7ogVelOfwpx-draSpjR576DsQXWTDMC_Qxo45Rlu4euakem8ky99v_vaWCtr40dq5zVCFLVCSAkpXAZriXYqqSaCnmhifWqA2mutMO4tNRAmIw9tNIcJgpSURtsm1EysyFAAh4m2CSkfqT2usupqZ-aHUpf1kY9GywBHcc0o1dFZuNNGAUFHHwUw"/>
+</div>
+<div class="p-6 flex-1 flex flex-col justify-between">
+<div>
+<span class="text-[11px] font-semibold uppercase tracking-wider text-slate-400">Jun 22, 2024</span>
+<h3 class="text-lg font-bold text-brand-navy mt-1 group-hover:text-brand-skyDark transition-colors">
+                Signs Your Pool Pump Needs Service
+              </h3>
+</div>
+<a class="mt-4 text-xs font-bold text-brand-orange hover:text-brand-orangeHover inline-flex items-center gap-1" href="#contact">
+              Read Guide →
+            </a>
+</div>
+</article>
+<!-- Article 3 -->
+<article class="bg-white rounded-2xl overflow-hidden border border-slate-200/80 shadow-subtle hover:shadow-card transition-all duration-300 group flex flex-col">
+<div class="h-48 overflow-hidden bg-slate-100">
+<img alt="Opening pool in spring" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6DVcyYmVy8G0fEuidFhDDjh4dV6UvP0b8aTBjW5AowFVDPUQK22hyrWmFGuiy8Nb0HG0bTuYEVQPRp2LRLenorVraCR_SZyaNxLnj0FhVLuNgI7Mhj_z5GdEbAF9IzFgs6uGem5k3r9S61MXt3ryukiUIi524-Zpe6hXJPfUW4WOiJTNpLxZNOweZQFhKvQ5UFZpu-ol-aEsyO0BzY09k1QLTmGlkVsy6eaml-SE95x0ac1zvAOzr6g"/>
+</div>
+<div class="p-6 flex-1 flex flex-col justify-between">
+<div>
+<span class="text-[11px] font-semibold uppercase tracking-wider text-slate-400">Jun 17, 2024</span>
+<h3 class="text-lg font-bold text-brand-navy mt-1 group-hover:text-brand-skyDark transition-colors">
+                Opening Your Pool After Wintertime
+              </h3>
+</div>
+<a class="mt-4 text-xs font-bold text-brand-orange hover:text-brand-orangeHover inline-flex items-center gap-1" href="#contact">
+              Read Guide →
+            </a>
+</div>
+</article>
+</div>
+<!-- View All Button -->
+<div class="text-center mt-12">
+<a class="inline-flex items-center justify-center px-7 py-3 rounded-full bg-brand-orange hover:bg-brand-orangeHover text-white font-semibold text-sm transition-all shadow-sm" href="#tips">
+          View All Articles
+        </a>
+</div>
+</div>
+</section>
+<!-- END: Tips & Guides Section -->
+<!-- BEGIN: Call To Action Banner -->
+<section class="py-16 bg-white" id="contact">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="rounded-3xl overflow-hidden shadow-2xl bg-brand-navy grid grid-cols-1 lg:grid-cols-12">
+<!-- Left Banner Content -->
+<div class="lg:col-span-6 p-8 sm:p-14 lg:p-16 flex flex-col justify-center space-y-6">
+<div class="flex items-center gap-3 text-slate-300 text-xs font-bold uppercase tracking-wider">
+<span class="w-2.5 h-2.5 rounded-full bg-brand-orange"></span>
+            Book An Inspection
+          </div>
+<h2 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight leading-tight">
+            Ready For A<br/>Healthier Pool?
+          </h2>
+<p class="text-slate-300 text-base leading-relaxed max-w-md">
+            Schedule your first visit today and experience the difference after one service. No contracts required.
+          </p>
+<div class="pt-2">
+<a class="inline-flex items-center justify-center px-8 py-3.5 rounded-full bg-brand-orange hover:bg-brand-orangeHover text-white font-bold text-sm tracking-wide transition-all shadow-lg hover:shadow-xl" href="tel:+18005104827">
+              Get In Touch
+            </a>
+</div>
+</div>
+<!-- Right Banner Photo -->
+<div class="lg:col-span-6 min-h-[300px] lg:min-h-[420px] relative">
+<img alt="Luxury poolside lounge cabana and crystal clear pool" class="w-full h-full object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBsuYSpKE6o2hz8MutKA12SEqffmRk1WNkk5Y5DJz8vVXIzz2T9CNTiPcgnPjAlFXsZqfP4EWzye1geBbEUlara8OtV58ZJ1g104b7pSwYfk4Z1q6Yw8d38wLH8lVe77Ok2kncZDysK7MnqwCU6qS4B0UkMpm-kNYmojeQR8Lb8R2ECpn7zxdUATV-c6NPVQPtKleMD9R5UamJ7PQzDKOnZQhK0tMZjLwg5AIov8C1-fKhbxIz1s0MwYg"/>
+<div class="absolute inset-0 bg-gradient-to-r from-brand-navy/60 to-transparent lg:hidden"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: Call To Action Banner -->
+<!-- BEGIN: Main Footer -->
+<footer class="relative bg-brand-navy text-white pt-16 pb-12 overflow-hidden border-t border-brand-navyLight/40">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+<!-- Footer Columns -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-16 border-b border-white/10">
+<!-- Col 1: Contact Details -->
+<div class="lg:col-span-4 space-y-4">
+<h4 class="text-base font-bold text-white tracking-wide">Contact Us</h4>
+<ul class="space-y-3 text-sm text-slate-300">
+<li class="flex items-center gap-3">
+<span class="text-brand-sky font-bold">📞</span>
+<a class="hover:text-white transition-colors" href="tel:+18005104827">+1 (800) 510-4827</a>
+</li>
+<li class="flex items-center gap-3">
+<span class="text-brand-sky font-bold">✉️</span>
+<a class="hover:text-white transition-colors" href="mailto:hello@poolify.com">hello@poolify.com</a>
+</li>
+<li class="flex items-center gap-3">
+<span class="text-brand-sky font-bold">📍</span>
+<span>Miami, FL &amp; Surrounding Communities</span>
+</li>
+</ul>
+</div>
+<!-- Col 2: Newsletter Subscription -->
+<div class="lg:col-span-5 space-y-4">
+<h4 class="text-base font-bold text-white tracking-wide">Join Our Newsletter</h4>
+<p class="text-xs text-slate-300 leading-relaxed max-w-sm">
+            Receive seasonal pool opening guides, chemical balance cheat sheets, and exclusive service discounts.
+          </p>
+<form class="flex flex-col sm:flex-row gap-2 max-w-md" onsubmit="event.preventDefault();">
+<input class="w-full px-4 py-2.5 rounded-full bg-white/10 text-white placeholder-slate-400 border border-white/20 text-sm focus:outline-none focus:ring-2 focus:ring-brand-orange" placeholder="your@email.com" required="" type="email"/>
+<button class="px-6 py-2.5 rounded-full bg-brand-orange hover:bg-brand-orangeHover text-white font-semibold text-xs uppercase tracking-wider transition-all whitespace-nowrap shadow-sm" type="submit">
+              Sign Up
+            </button>
+</form>
+</div>
+<!-- Col 3: Navigation Links -->
+<div class="lg:col-span-3 space-y-4">
+<h4 class="text-base font-bold text-white tracking-wide">Information</h4>
+<ul class="space-y-2 text-sm text-slate-300">
+<li><a class="hover:text-white transition-colors" href="#services">Services</a></li>
+<li><a class="hover:text-white transition-colors" href="#about">About</a></li>
+<li><a class="hover:text-white transition-colors" href="#work">Portfolio</a></li>
+<li><a class="hover:text-white transition-colors" href="#tips">Blog</a></li>
+</ul>
+</div>
+</div>
+<!-- Signature Large Watermark (Poolify) -->
+<div class="w-full text-center py-8">
+<span class="watermark-text font-black text-white/[0.04] inline-block tracking-tighter">
+          Poolify
+        </span>
+</div>
+<!-- Bottom Legal Row -->
+<div class="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-4">
+<div>
+          © 2024 Poolify Inc. All rights reserved. Crafted for luxury pool living.
+        </div>
+<div class="flex items-center gap-6">
+<a class="hover:text-white transition-colors" href="#">Privacy Policy</a>
+<a class="hover:text-white transition-colors" href="#">Terms of Service</a>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-white/10 text-white font-mono text-[10px]">
+            ⚡ Certified CPO Team
+          </span>
+</div>
+</div>
+</div>
+</footer>
+<!-- END: Main Footer -->
+</body></html>

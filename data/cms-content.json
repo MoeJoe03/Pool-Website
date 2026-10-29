@@ -1,0 +1,329 @@
+{
+  "company": {
+    "name": "Poolify",
+    "logoPrefix": "Pool",
+    "logoSuffix": "ify",
+    "tagline": "Professional Pool Care & Luxury Renovations",
+    "phone": "+18005104827",
+    "phoneDisplay": "+1 (800) 510-4827",
+    "email": "hello@poolify.com",
+    "address": "Miami, FL & Surrounding Communities"
+  },
+  "navigation": {
+    "links": [
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "About",
+        "href": "#about"
+      },
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "How It Works",
+        "href": "#process"
+      },
+      {
+        "label": "Tips & Guides",
+        "href": "#tips"
+      }
+    ],
+    "ctaText": "Get a Quote",
+    "ctaHref": "#contact"
+  },
+  "hero": {
+    "trustBadge": "Trusted by 2,300+ customers",
+    "titleLine1": "Professional",
+    "titleHighlight": "Pool Care",
+    "titleLine2": "For Every Season",
+    "subtitle": "From weekly maintenance to equipment care, we keep your pool clean, safe, and performing at its best.",
+    "primaryCtaText": "Get a Quote",
+    "secondaryCtaText": "View Services",
+    "bgImage": "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?q=80&w=2070&auto=format&fit=crop",
+    "ratingText": "4.9/5 Rating from verified clients",
+    "avatars": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuAtAtaRPosrxuTjN9pfGXlV3wBeKxjISWy-pLil92kqR8oGHry-hAW6L_6TbgJ7ZdfCYGDoBYzcQy6Lmq3GaiMWny9mWnnQGP60Z8ByqNYMieo0vGqfaFSvnyUw1tFk5sl5t_0LJFTitWWEMwohlSkIYQOlOZo7og5g2UJvZ953jqAiE2P18yJ1koPgN71Z6Qo5q66pmeA4x73htc9P8s-GmycoiG_kdSDwFP23aKB8Y7tRL1eecZnc1A",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuAQL6IvxZkqYpg0KxqaDCyW5laAeA_8Mwlsh20YiiUSod1g26f7Wg26lrKC8ie-NRBfRSMQfzBD_U9oSCOu8VP9pzdi9XxhLI71x8BR7uVK2vzsVFz5HM4HGKTY6Ld2Uw8w5hMShbPbz8JtjeDkohq3neHAs2GLV_nmDLtZYnat-ognGP0VCbIAR1ELplyfKaYbfG70wJ-nIKt1nEw3L2_GItFnwI5sLxBSFfLTtxwrg0Vd7Uv-3bKIxA",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDMTm2HUFT_84B9sySqD5ScwDQW7G-MAE09fA1C8h47ED0J3ddkNTIl3leTl020f1eXg2exGQ_dh60q1yFuh0jZ0s1UfSnn9x6znT1gMcKMnzRW6sf59e8iSm0tRDEFFO8OrQFbWVdbEhyqJsHkTQ4ubVqW6sngA5Rru5NnYRB4L36zCqCM-4P2qtLIIdsOekLmrf4e5erDyP5BqzY_CGbK4giWu_49ih0lS0CG9nLeqTI-TotVvsZ1Bw",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDdhoi4vF8bcfJQBv49sArz0KbunF3nw9FFP5XbfZDlug2NBfo8O1deElzxbw5Gg4p94ne-YQRoTCobM4HnwXgy6Z8Tg7BZuKq7t7CUBXGQir8jGioOw6l-f3gb-4IfJzZ4QZS4HS75uaoQRDHxOBx94TDIz2VlYxyWOk0x9a9ffmD_-Oq5H-mG4a3Px9TmrHggoIoOG90PJ9-fpBuvWy2_ccOR5s1ph-yHwiNTeWGk71VoVNc1i-LMGA"
+    ],
+    "partners": [
+      "Logoipsum",
+      "Logoipsum",
+      "Logoipsum",
+      "Logoipsum",
+      "Logoipsum",
+      "Logoipsum"
+    ]
+  },
+  "servicesSection": {
+    "badge": "SERVICES",
+    "heading": "Everything Your Pool",
+    "headingHighlight": "Needs",
+    "description": "Choose from recurring service plans, one-time deep cleanings, urgent repairs, luxury renovations, and modern automated builds.",
+    "ctaText": "View All Services",
+    "chemicalsHighlightTitle": "Chemicals Included",
+    "chemicalsHighlightDesc": "Every maintenance package covers high-grade chlorine, stabilizer, balance adjustments, and water clarity testing.",
+    "items": [
+      {
+        "id": "service-1",
+        "title": "Weekly Maintenance",
+        "description": "Keep your pool balanced, sparkling clean, skimmed, vacuumed, and swim-ready every week without lifting a finger.",
+        "priceNote": "Starting from $149/mo",
+        "icon": "Calendar",
+        "tagColor": "orange",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBLeHPr-3dlLquWxbOlNUHK3OqgOkDfnKR5PwxJ0HhdzaW_FXj5jeOf5TxCsiR_Bm8bl0U6hmSNwtQ_U91KgrRNkRt5EmF72wnPkgw5AylY4eQlj-t-6Yz6q_vYHX8WiQgGm8Xddks8tFI8aYN482nUwB84H7g9ctfB0jIEABe_B3u4E45NY4up3ifgpsHPuAbX6wcJJa2cQBRI2At_eKl1NU3tSBSFfEluq4FXnQdVQIkLCP3XdmGOug"
+      },
+      {
+        "id": "service-2",
+        "title": "Pool Cleaning & Algae Recovery",
+        "description": "One-time deep cleans, green-to-clean chemical treatments, tile descaling, and filter cartridge purges that restore pristine clarity.",
+        "priceNote": "Same-day inspection available",
+        "icon": "Droplets",
+        "tagColor": "sky",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB4EnUJmNv70B9KkEFu9TyDYWmSc50wgnDnwzxmr1qnowuJ8Ohswej57xoW_ShbtFFhrU7eJBqXEFmUvWaliqyIOm4fQchajYmsiuzoJOWI9QAFrtZ6p8q2tHQ4ZTKXPNAHZr1PusjO30KWjl7M5A6LWPE5ZuAuNbyxM8fTf9yZgcJfjK9rHVX4PJoDWO8IsPxBZZa2T867U0qhdwC7SmGsLIFGRpuQ35Ch4KKm8k3oRqT8sGzp9TyU8g"
+      },
+      {
+        "id": "service-3",
+        "title": "Repairs & Equipment Automation",
+        "description": "Fast, dependable fixes for variable-speed pumps, smart heaters, salt cells, valves, and smartphone-controlled automation systems.",
+        "priceNote": "Licensed & Insured Technicians",
+        "icon": "Settings",
+        "tagColor": "amber",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuC3lsEFyFko4Uol_vMz0rVy3xtE6ncpqa-Iu0WiVI6G8IpOgTTKVgi0zhsYPIGTkfEW_10_MvNThKvOn4kG-ZN7ASwAwcof8CgxX6Ew_HcI4FuBT5dEkLyuccU4CZTd6GpKbZaRVd2PSwEhDetj_lA_pigwsE8seRWadEQObj-fILOb3aZi3iOs3a6ML6z6tEEXa5kLHtf0ghYyF1cT-kxNmE6f6dRNpcbHeb7TBMDM5mDh24T9rApEAA"
+      },
+      {
+        "id": "service-4",
+        "title": "Renovation & Remodeling",
+        "description": "Refresh the look with custom pebble resurfacing, porcelain water-line tile, travertine coping, tanning ledges, and LED lighting upgrades.",
+        "priceNote": "Full 3D Design Consultations",
+        "icon": "Wrench",
+        "tagColor": "indigo",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCJT_Qw_melayp-Tc9N22P3iIb89DA9harVic2Gz8jNR7VOMnomAE-9qBiVKIoS35NgU_vlKowlDKBYWPbh2ZTHsyIFJLvWO73T6WHbjCKfvF1f9NMPuNv6MdjUhdF84xS6DBg4mkxmvG8kurrgRAN1EFY63oxrucUO6hgIrUfpdjqxcy7wclYml3Tm0f04G6j-WSQ2siywU6woNnu15wDu8b4GG45raPYXb9wl0akhgCrtXMiaH9kA-w"
+      },
+      {
+        "id": "service-5",
+        "title": "Opening & Closing",
+        "description": "Seasonal opening and winterization handled start to finish. We winterize plumbing lines, cover safety pools, and prep for the next season.",
+        "priceNote": "Seasonal package discounts",
+        "icon": "Snowflake",
+        "tagColor": "cyan",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDXw6oXg5sXAG519iupZ8vEFVr8mF1PXWweoFsFW7lnNskkLQ_BTJgEasoVGeoEI2lTsN73t-C19myy9PvY6lLMB_M5YbKEiUrrTO3ZGB8eL4g1NudUWdGfEWM5E1lX_aVRYPVfp2wCAyW974u5UjcmF7amwkH7VMBbJaekrsaHh3bvBVFGUzsT8VPIg8W5mR0YUT3sMJwOSnjwLUWVxsOZrDjQBnalJMxQfiHYHBNMhUsoPeAhPS2gmQ"
+      },
+      {
+        "id": "service-6",
+        "title": "Saltwater Conversion",
+        "description": "Switch to softer, gentler, low-maintenance saltwater swimming that reduces eye irritation, eliminates harsh chemical odors, and preserves pool liners.",
+        "priceNote": "Eco-friendly technology",
+        "icon": "Waves",
+        "tagColor": "emerald",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuC1UbXjyPEbo9Xzq6oiLmf0xNUxKd5cDg_RHxN5oT1gn585SoWofYofp4-tkcvMpnRVnVoo89Dib3Yk4bC1KnazFTDKC4ihA5Emx0yfiXd77vR_ifBSMO412H-eLYFeJJ9nmsY0JNWEAaNoup3MUTxQ518pIkTXEWe9Wq51bvLvBx3YfzUSSzpWOhj6xRZrFNl41WSjikrJM6FTCfqhIg3qrXByf_htqMg1GRmPpb_D_lu3pNFFhqMQxQ"
+      }
+    ]
+  },
+  "standardsSection": {
+    "badge": "WHY POOLIFY",
+    "heading": "The Poolify",
+    "headingHighlight": "Standard",
+    "description": "Clear communication, dependable arrival windows, and craftsmanship built to withstand every season.",
+    "pillars": [
+      {
+        "id": "p-1",
+        "icon": "Award",
+        "title": "Years of Experience",
+        "description": "Proven master technician expertise across maintenance, hydraulic plumbing, and structural engineering."
+      },
+      {
+        "id": "p-2",
+        "icon": "Clock",
+        "title": "On-Time Service",
+        "description": "Clear arrival notifications, punctual scheduled visits, and no surprise cancellations or missed appointments."
+      },
+      {
+        "id": "p-3",
+        "icon": "ShieldCheck",
+        "title": "Quality Workmanship",
+        "description": "Commercial-grade filtration equipment, premium testing re-agents, and meticulous finish detailing."
+      },
+      {
+        "id": "p-4",
+        "icon": "Tag",
+        "title": "Transparent Pricing",
+        "description": "Flat, honest monthly rate sheets and pre-approved invoices with photographic logs after every job."
+      }
+    ]
+  },
+  "aboutSection": {
+    "badge": "BUILT ON TRUST",
+    "heading": "Pool Care With A",
+    "headingHighlight": "Higher Standard",
+    "description": "Poolify was built around reliable service, clear communication, and pool care that homeowners and luxury estates can count on every single season. We eliminate the frustration of absentee cleaners and opaque pricing.",
+    "bulletPoints": [
+      "Reliable, consistent pool care schedule",
+      "Clear service photo updates & chemical reports sent to your phone",
+      "Long-term results that safeguard equipment warranties"
+    ],
+    "ctaText": "About Us",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCN8wZDh0wZhNemVr_dJ32G06u-45djq4wGI2LGtbphytAwWHnSEZYw7D6jGTD8SnujmoUKKUzPK-iahz9EYwVQGURSbAy9IbC6uDIOpNG53B76ON-qF1iexRoOpcFLZvnCv7K0zXu6q7_ICWwWdyqMeMRhOrr5do0CQ6YQWsSUsXJzZrsgCTkOKlnDLj59HsrrInl6loLRL6p44HT_n_JVvnItqdjqcRrUBLYZrG5lNi5qjoNfF3qAgA",
+    "imageBadge": "Our Dedicated Crew",
+    "imageTitle": "Certified Pool Operators (CPO) on Every Route"
+  },
+  "portfolioSection": {
+    "badge": "RESULTS",
+    "heading": "Work We're",
+    "headingHighlight": "Proud Of",
+    "description": "A quick look at recent builds, crystal clear refreshes, and precision restorations.",
+    "items": [
+      {
+        "id": "project-1",
+        "badge": "2024 Project",
+        "location": "Miami, FL",
+        "title": "Modern Infinity Pool Build",
+        "description": "Designed and built a clean, modern infinity-style pool with a bright stone deck and a premium pebble finish, planned for effortless maintenance and longevity.",
+        "buttonText": "Contact For Similar Build",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAJvo8A_wbd8hEXl_7dtEMrXi_09YQQxtg5cPF9syj1YJ6K0yiaufCGDdvcheg6YmZMTra0fiy1GBn9ewXe3gUMFrgi_rgkEvLvYPqXJQ2lcSeBfPtqvJReqNoHEWYlV1disJorHB81Kr31-9mDIZAWemj0ZMafXRt0L9lizykhwehiRuzVLS6cBj4w-17CM-NKVMiJWqO4Zsky2sIxI4KbvKxCYW2psZtR0r99EZpwtPaWCV8Intsj2w"
+      },
+      {
+        "id": "project-2",
+        "badge": "Deep Clean Case",
+        "location": "Miami Beach, FL",
+        "title": "Completed Deep Clean & Chemical Balance",
+        "description": "Completed a one-time deep clean to remove algae buildup, restore water clarity, and rebalance chemistry, including skimming, vacuuming, brushing, and a full filter check.",
+        "buttonText": "Book A Deep Clean",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAYtvn5vwIsv090ym8oYbiEFLZ1FR3tUMShGF-kjaHRcTL13_RP5oAR54-BMVmMw9dpzcQFGoFOtupiRTW4FgIr1eWUVM0osoHx9TB16xKu9IUN1pXWvp1PbMaI6W7LLeOCDhI2Z-Qj_syLhUzOAdJwKJwF3ci2WZd6sOMza9975FlVu61U156nCsLPpTH_tQOWPht_2sUrdbGV1OZnPl3UMozgJCiHj2-GPjhURRz7je9N5sf8mZf7Fg"
+      },
+      {
+        "id": "project-3",
+        "badge": "Remodel 2024",
+        "location": "Hollywood, FL",
+        "title": "Pool Renovation & Deck Refresh",
+        "description": "Refreshed the pool with a clean, modern update, resurfacing touch-ups, Mediterranean blue tile, and a full equipment tune-up to improve performance and comfort.",
+        "buttonText": "Get Renovation Quote",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBTPg7lD5FAuEYvvTqh6U6oMYY8A49evsmQve346P5Z7hJN3mLzth6FcFEtVu1RcG9YoUsGy1V3DHZgLf8udC1oHD1LrvKgr60IkVBu4cM-c-tmQWPp0sHFtsNAAEzZK_fmOsY9c2LHXBaRrRNSx_riUihqjsF24m9dvyBzZnDbMcuEZohcmXqCR4bCRHxJrSjVxcTlJ9lOoqxOFxA2MGZpaVaKnG8E1M3JPTo8TaPFcWSX08VT6jLgeQ"
+      }
+    ]
+  },
+  "processSection": {
+    "badge": "PROCESS",
+    "heading": "How",
+    "headingHighlight": "It Works",
+    "description": "Clear planning, clean execution, and a final setup you can rely on.",
+    "steps": [
+      {
+        "step": "01",
+        "title": "Site Check & Plan",
+        "description": "We inspect your pool, test water chemistry, audit filters and motors, and map next steps."
+      },
+      {
+        "step": "02",
+        "title": "Transparent Quote",
+        "description": "We provide upfront quotes with zero surprises. You pick the cadence that fits your lifestyle."
+      },
+      {
+        "step": "03",
+        "title": "Build / Refresh",
+        "description": "We handle the work cleanly: chemical balancing, updates, installs, and deep cleaning passes."
+      },
+      {
+        "step": "04",
+        "title": "Swim & Relax",
+        "description": "Enjoy crystal-clear, safe water with automatic weekly route logs delivered straight to your phone."
+      }
+    ]
+  },
+  "testimonialsSection": {
+    "badge": "TESTIMONIALS",
+    "heading": "What",
+    "headingHighlight": "Pool Owners",
+    "description": "Honest words from homeowners who rely on our team to keep their pool pristine.",
+    "featured": {
+      "quote": "\"After one deep clean the water was crystal clear again, and weekly visits keep it that way consistently.\"",
+      "author": "Olivia Hayes",
+      "role": "Residential Estate",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCZXffesqAfKdhvvppqwrQo8jsp4COh8SSBX4wlEwc3iL5xGcqAusqrbbk-0HnH6D0mcBzTcmzmE9bZcdQxW4Tk_3K2f86JAISVXmqMpzmQlI6tD7-AMl-4y1Lhk1e_bKGIaF5jr2YH993mIGkJwWZ9FTRQ_PHoYoBcS6Ve1wj9vWHUDrlKVVYzsoDn8iEvnS0QrYmv4LXXHj5_AiFUgrTxO7sVSYwLpF5thUoQIuPIQkBqTbrQtTUojQ"
+    },
+    "reviews": [
+      {
+        "id": "rev-1",
+        "name": "Sydney Collins",
+        "location": "South Beach, Miami",
+        "role": "Weekly Route Customer",
+        "rating": 5,
+        "quote": "Everything feels more professional now: clear arrival updates, immaculate tile work, and results you can actually notice.",
+        "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuDdhoi4vF8bcfJQBv49sArz0KbunF3nw9FFP5XbfZDlug2NBfo8O1deElzxbw5Gg4p94ne-YQRoTCobM4HnwXgy6Z8Tg7BZuKq7t7CUBXGQir8jGioOw6l-f3gb-4IfJzZ4QZS4HS75uaoQRDHxOBx94TDIz2VlYxyWOk0x9a9ffmD_-Oq5H-mG4a3Px9TmrHggoIoOG90PJ9-fpBuvWy2_ccOR5s1ph-yHwiNTeWGk71VoVNc1i-LMGA"
+      },
+      {
+        "id": "rev-2",
+        "name": "Daniel Kim",
+        "location": "Coconut Grove",
+        "role": "Saltwater Conversion",
+        "rating": 5,
+        "quote": "Our community pool stays spotless, and residents noticed the difference within the first week of service.",
+        "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuAolwBCfGWom2x8eW9MYrT8gCXxZHsRisR7AVb5e_Hbot9BOeP3ACl-1VFLpgEVM10I7aLVzQ26Zmv57ZsruDx9I3wYYpn7Lv9sKnN757J06J_m49lX5-TTRVDKOqmxsaBzcGw-AggUfXll6cxc5zY7Q5YGQqYc4pr9Qrr7e5D9W86nDG5CsCJiy3Gg8PeVwgXsjQWSJebFSBCXEzWkxZQ616FYD1TA_7Aphynr1GCdIsbOty4STHGusg"
+      },
+      {
+        "id": "rev-3",
+        "name": "Madison Clarke",
+        "location": "Downtown Miami",
+        "role": "Renovation Project",
+        "rating": 5,
+        "quote": "Great experience from start to finish, they planned it well, and the new pool fits our outdoor living space perfectly.",
+        "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuAHCabjF0ERdkoQPprFCk_RGCs4CmuUsetmtJqt-ZN1rJqejRxNbwzaCj6JF4ZGlhIBP2Q2zE8KlP74T7vOSgOK0tcdsqL2YvkYCzoVNPHg6U8lpmMA75JhTusn90afJn4toc4tEaRTr_P6Aii8ZfSVVrM-CTu-HccDhtP5mU3U7-Dt-dJ04OM2pU8RaV69psFQvFqFNADK94OlkGD8DeDHIYijNWJRNkO8CGDzAuRXB3JEAXBvHRbKQw"
+      }
+    ]
+  },
+  "articlesSection": {
+    "badge": "BLOG",
+    "heading": "Tips &",
+    "headingHighlight": "Guides",
+    "description": "Simple guides for cleaner water and smoother equipment maintenance.",
+    "ctaText": "View All Articles",
+    "items": [
+      {
+        "id": "art-1",
+        "title": "Weekly Pool Maintenance Checklist",
+        "date": "Jun 27, 2024",
+        "summary": "A simple, foolproof checklist for skimming, testing chemical balances, emptying skimmer baskets, and inspecting filter pressures to keep water crystal clear.",
+        "content": "Keeping your pool water pristine requires consistency. Follow this weekly checklist:\n1. Skim surface debris daily or every other day to prevent organics from sinking and decaying.\n2. Check and balance pH (7.4–7.6) and free chlorine (2.0–4.0 ppm).\n3. Empty skimmer and pump strainer baskets to safeguard suction pressure.\n4. Brush pool walls and tile lines to dislodge early stage algae and scale.\n5. Backwash sand/DE filters or rinse cartridge elements when pressure rises 8-10 PSI above baseline.\n6. Shock weekly or after heavy pool parties or rainstorms to oxidize contaminants.",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDRREQhG1Dmj57HqbsPFNvrSi6HdUV2JlM0tzOPYqZdgqcQZezhUezdWqdlvlbwkaKpArlrt5ffuvWk2yqGOpy-vnEpab-9f9YIIaeahjdkPKbvZHg1rDzl49-rX-tqyPC1TMSeeEElnN5IlLa25Qp7wKOQWhgjYlfJHvdJvzgWtFh84POmBYB02ixuLabOylzcPADDQiCkYSqjshrkNPaUrCYUJDUWmhx1zjH0uD9RsofxLpo3Anr_ug"
+      },
+      {
+        "id": "art-2",
+        "title": "Signs Your Pool Pump Needs Service",
+        "date": "Jun 22, 2024",
+        "summary": "Loud grinding noises, low water flow, leaking seals, or overheating are early warning signs your pump motor or impeller requires urgent servicing.",
+        "content": "Your pool pump is the heart of your circulation system. Watch for these 4 signs:\n1. Screeching or Grinding Sounds: Worn motor bearings typically emit a high-pitched grinding sound that indicates the motor needs rebuild or replacement.\n2. Low Water Flow & Priming Struggles: Air leaks in the suction line or clogged impellers reduce water turnover and leave air pockets in the pump basket.\n3. Dripping Water Under Motor: Shaft seal failure allows chlorinated water into the motor housing, causing premature failure if not addressed quickly.\n4. Circuit Breaker Tripping: Electrical shorting or excessive amp draw often indicates thermal overload or seizing windings.",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDAKc7LdEvvOCglmsK4oMYDZjADARvewsA4TTu8EfUB858lZUb5xjFMWYa7MYvVlf7ogVelOfwpx-draSpjR576DsQXWTDMC_Qxo45Rlu4euakem8ky99v_vaWCtr40dq5zVCFLVCSAkpXAZriXYqqSaCnmhifWqA2mutMO4tNRAmIw9tNIcJgpSURtsm1EysyFAAh4m2CSkfqT2usupqZ-aHUpf1kY9GywBHcc0o1dFZuNNGAUFHHwUw"
+      },
+      {
+        "id": "art-3",
+        "title": "Opening Your Pool After Wintertime",
+        "date": "Jun 17, 2024",
+        "summary": "Essential steps for removing winter covers, reconnecting pump and heater lines, initial chemical shock treatments, and establishing spring turnover.",
+        "content": "Start the swimming season with crystal clear results:\n1. Clean and drain winter covers before removal to prevent contaminated puddle water from spilling into the pool.\n2. Remove winterizing freeze plugs from return jets and skimmers, and reinstall drain plugs on pumps, filters, and heaters.\n3. Bring water level back to mid-skimmer height and prime the filtration system.\n4. Run circulation continuously for 24-48 hours while testing alkalinity, calcium hardness, stabilizer, and pH before chlorine shock.\n5. Apply professional algaecide and clarifier to eliminate dormant winter spores.",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuA6DVcyYmVy8G0fEuidFhDDjh4dV6UvP0b8aTBjW5AowFVDPUQK22hyrWmFGuiy8Nb0HG0bTuYEVQPRp2LRLenorVraCR_SZyaNxLnj0FhVLuNgI7Mhj_z5GdEbAF9IzFgs6uGem5k3r9S61MXt3ryukiUIi524-Zpe6hXJPfUW4WOiJTNpLxZNOweZQFhKvQ5UFZpu-ol-aEsyO0BzY09k1QLTmGlkVsy6eaml-SE95x0ac1zvAOzr6g"
+      }
+    ]
+  },
+  "ctaBanner": {
+    "badge": "Book An Inspection",
+    "headingLine1": "Ready For A",
+    "headingLine2": "Healthier Pool?",
+    "description": "Schedule your first visit today and experience the difference after one service. No contracts required.",
+    "buttonText": "Get In Touch",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBsuYSpKE6o2hz8MutKA12SEqffmRk1WNkk5Y5DJz8vVXIzz2T9CNTiPcgnPjAlFXsZqfP4EWzye1geBbEUlara8OtV58ZJ1g104b7SwYfk4Z1q6Yw8d38wLH8lVe77Ok2kncZDysK7MnqwCU6qS4B0UkMpm-kNYmojeQR8Lb8R2ECpn7zxdUATV-c6NPVQPtKleMD9R5UamJ7PQzDKOnZQhK0tMZjLwg5AIov8C1-fKhbxIz1s0MwYg"
+  },
+  "footer": {
+    "contactHeading": "Contact Us",
+    "newsletterHeading": "Join Our Newsletter",
+    "newsletterDesc": "Receive seasonal pool opening guides, chemical balance cheat sheets, and exclusive service discounts.",
+    "infoHeading": "Information",
+    "watermarkText": "Poolify",
+    "copyrightText": "© 2024 Poolify Inc. All rights reserved. Crafted for luxury pool living.",
+    "cpoBadgeText": "Certified CPO Team"
+  }
+}

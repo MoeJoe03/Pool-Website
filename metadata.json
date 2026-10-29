@@ -1,0 +1,6 @@
+{
+  "name": "Poolify - Professional Pool Care & Luxury Renovations",
+  "description": "Premier pool care, weekly maintenance, equipment repairs, and luxury renovations with simple CMS management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
